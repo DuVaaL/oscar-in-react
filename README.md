@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project use ReactJS to create dynamic Website
 
 ## Available Scripts
 
