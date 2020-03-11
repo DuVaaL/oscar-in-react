@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+
+.App{
+    background-color: #fff;
+    max-width: 992px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+    background-color:orange;
+}
+
+.nav-menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-menu__link {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.nav-menu__link:hover {
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-image:hover {
+    background-image: url('https://ichef.bbci.co.uk/news/660/cpsprodpb/C267/production/_105776794_oscars_index_reuters_1.jpg');
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-1,.thumbnail-2,.thumbnail-3{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-1:hover,.thumbnail-2:hover,.thumbnail-3:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.thumbnail-1 {
+    background-image: url('https://cdn1.thr.com/sites/default/files/imagecache/list_landscape_960x541/2019/02/_jaime_ray_newman_and_guy_nattiv_accept_the_best_live_action_short_film_award_for_skin_onstage_during_the_91st_annual_academy_awards-oscars_2019-getty-h_2019.jpg');
+}
+
+.thumbnail-2 {
+    background-image: url('https://pmcvariety.files.wordpress.com/2019/02/green-book-3.jpg');
+}
+
+.thumbnail-3 {
+    background-image: url('https://static.dir.bg/uploads/images/2019/02/25/1668074/768x432.jpg?_=1551069011');
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.main-content {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.main-content h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.active{
+    background-color: rgb(66, 192, 34);
+    color: white;
+}
+.container{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.actor-container {
+    display: inline-block;
+    text-align: center;
+    margin: 11px;
+}
+
+.actor-image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+.actor-image:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
