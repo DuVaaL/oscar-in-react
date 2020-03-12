@@ -1,5 +1,12 @@
 This project use ReactJS to create dynamic Website
 
+<html><head></head><body>
+  <b>Demo</b>
+  <video width="320" height="240" loops >
+  <source src="maVideo.mp4" type="video/gif"
+    </video>
+  </body></html>
+
 ## Available Scripts
 
 In the project directory, you can run:
