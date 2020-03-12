@@ -2,8 +2,8 @@ This project use ReactJS to create dynamic Website
 
 <html><head></head><body>
   <b>Demo</b>
-  <video width="320" height="240" loops >
-  <source src="maVideo.mp4" type="video/gif"
+  <video loops >
+  <source src="https://github.com/DuVaaL/oscar-in-reactJS/blob/master/src/data/demo.gif" type="video/gif"
     </video>
   </body></html>
 
