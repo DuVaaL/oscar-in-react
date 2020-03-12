@@ -16,7 +16,7 @@ const Actors = (props) => {
     })
     return(
         <div className="main-content">
-            <div> <Link className="back" to="/" > Retour </Link> </div>
+            <div> <Link className="back" to="/Actors" > Retour </Link> </div>
             <h2>{props.title}</h2>
             <div className="container">
                 <h2> {articles} </h2>
